@@ -20,7 +20,7 @@ const App = () => {
     });
     setTodos(newTodos);
   }
-    return (
+  return (
     <div className="App">
       <h1>React Todo App</h1>
       <ToDoInput todo={todo} setTodo={setTodo} addTodo={addTodo}/>
